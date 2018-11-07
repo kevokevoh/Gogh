@@ -10,7 +10,7 @@ COLOR_06="#bd93f9"           # SYNTAX_VAR
 COLOR_07="#ff79c6"           # PROMP
 COLOR_08="#94A3A5"           #
 
-COLOR_09="#000000"           #
+COLOR_09="#50fa7b"           #
 COLOR_10="#ff5555"           # COMMAND_ERROR
 COLOR_11="#50fa7b"           # EXEC
 COLOR_12="#ffb86c"           #
@@ -61,9 +61,9 @@ gogh_colors
     if [ $(uname) = "Darwin" ]; then
         # OSX ships with curl and ancient bash
         # Note: here, sourcing directly from curl does not work
-        curlsource https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh
+        curlsource https://raw.githubusercontent.com/kevokevoh/Gogh/master/apply-colors.sh
     else
         # Linux ships with wget
-        source <(wget -O - https://raw.githubusercontent.com/Mayccoll/Gogh/master/apply-colors.sh)
+        source <(wget -O - https://raw.githubusercontent.com/kevokevoh/Gogh/master/apply-colors.sh)
     fi
 fi

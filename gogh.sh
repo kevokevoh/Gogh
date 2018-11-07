@@ -196,7 +196,7 @@ set_gogh() {
     string_r="${string%???}"
     string_s=${string_r//\./_}
     result=$(capitalize "${string_s}")
-    url="https://raw.githubusercontent.com/Mayccoll/Gogh/master/themes/$1"
+    url="https://raw.githubusercontent.com/kevokevoh/Gogh/master/themes/$1"
 
     if [ "$(uname)" = "Darwin" ]; then
         # OSX ships with curl
